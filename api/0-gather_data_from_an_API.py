@@ -39,7 +39,7 @@ def main():
     )
 
     for each_completed_task in completed_tasks:
-        print(f"\t {each_completed_task["title"]}")
+        print(f'\t {each_completed_task["title"]}')
 
 
 if __name__ == "__main__":
