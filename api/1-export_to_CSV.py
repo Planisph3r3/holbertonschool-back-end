@@ -18,7 +18,7 @@ def main():
 
         if request_employee_name.status_code == 200:
             employee_info_dict = request_employee_name.json()
-            EMPLOYEE_NAME: str = employee_info_dict.get("name")
+            EMPLOYEE_NAME: str = employee_info_dict.get("username")
         else:
             print("Cannot fetch data")
             exit()
